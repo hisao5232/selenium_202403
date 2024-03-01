@@ -30,6 +30,7 @@ sleep(10)
 
 #検索窓 
 Word = "サッカー　リバウンダー"
+print(Word)
 driver.find_element(By.ID, "twotabsearchtextbox").send_keys(Word)
 sleep(1)
 driver.find_element(By.ID,"nav-search-submit-button").click()
